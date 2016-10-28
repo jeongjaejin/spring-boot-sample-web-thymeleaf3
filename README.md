@@ -1,6 +1,7 @@
 # spring-boot-sample-web-thymeleaf3
 
 Issue Report - Using Thymeleaf Layout Dialect.
+
 &lt;table id="t1"><br />
 &nbsp;&nbsp;&lt;colgroup><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;col /> &lt;!-- here! --><br />
@@ -13,6 +14,7 @@ Issue Report - Using Thymeleaf Layout Dialect.
 &nbsp;&nbsp;&lt;/colgroup><br />
 &nbsp;&nbsp;&lt;tr>&lt;td>2&lt;/td>&lt;/tr><br />
 &lt;/table><br />
+
 Two table with colgroup & col tags in one layout fragment appear under exception.
 
 Exception: 
