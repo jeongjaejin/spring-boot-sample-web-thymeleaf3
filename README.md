@@ -2,16 +2,16 @@
 
 Issue Report - Using Thymeleaf Layout Dialect.
 &lt;table id="t1"><br />
-  &lt;colgroup><br />
-    &lt;col /> &lt;!-- here! --><br />
-  &lt;/colgroup><br />
-  &lt;tr>&lt;td>1&lt;/td>&lt;/tr><br />
+&nbsp;&lt;colgroup><br />
+&nbsp;&nbsp;&lt;col /> &lt;!-- here! --><br />
+&nbsp;&lt;/colgroup><br />
+&nbsp;&lt;tr>&lt;td>1&lt;/td>&lt;/tr><br />
 &lt;/table><br />
 &lt;table id="t2"><br />
-  &lt;colgroup><br />
-    &lt;col /> &lt;!-- here! --><br />
-  &lt;/colgroup><br />
-  &lt;tr>&lt;td>2&lt;/td>&lt;/tr><br />
+&nbsp;&lt;colgroup><br />
+&nbsp;&nbsp;&lt;col /> &lt;!-- here! --><br />
+&nbsp;&lt;/colgroup><br />
+&nbsp;&lt;tr>&lt;td>2&lt;/td>&lt;/tr><br />
 &lt;/table><br />
 Two table with colgroup & col tags in one layout fragment appear under exception.
 
