@@ -1,18 +1,18 @@
 # spring-boot-sample-web-thymeleaf3
 
 Issue Report - Using Thymeleaf Layout Dialect.
-&gt;table id="t1"><br />
-  &gt;colgroup><br />
-    &gt;col /> &gt;!-- here! --><br />
-  &gt;/colgroup><br />
-  &gt;tr>&gt;td>1&gt;/td>&gt;/tr><br />
-&gt;/table><br />
-&gt;table id="t2"><br />
-  &gt;colgroup><br />
-    &gt;col /> &gt;!-- here! --><br />
-  &gt;/colgroup><br />
-  &gt;tr>&gt;td>2&gt;/td>&gt;/tr><br />
-&gt;/table><br />
+&lt;table id="t1"><br />
+  &lt;colgroup><br />
+    &lt;col /> &lt;!-- here! --><br />
+  &lt;/colgroup><br />
+  &lt;tr>&lt;td>1&lt;/td>&lt;/tr><br />
+&lt;/table><br />
+&lt;table id="t2"><br />
+  &lt;colgroup><br />
+    &lt;col /> &lt;!-- here! --><br />
+  &lt;/colgroup><br />
+  &lt;tr>&lt;td>2&lt;/td>&lt;/tr><br />
+&lt;/table><br />
 Two table with colgroup & col tags in one layout fragment appear under exception.
 
 Exception: 
